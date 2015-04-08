@@ -41,11 +41,3 @@ public class MyThread extends Thread {
 
     }
 }
-
-class MyRunnable implements Runnable{
-
-    @Override
-    public void run() {
-        System.out.println("Runable Thread");
-    }
-}
