@@ -19,6 +19,9 @@ public class Reentrant {
         //do something
     }
 
+    //synchronized的实例方法相当于在this上加锁
+    //如果某个线程调用了outer()，outer()中的inner()调用是没问题的，
+    //因为两个方法都是在同一个管程对象(即this)上同步的
     public void outerSync(){
         synchronized (this){
             innerSync();

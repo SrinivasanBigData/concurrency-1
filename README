@@ -1,8 +1,16 @@
 
+## com.oracle
+
 http://docs.oracle.com/javase/tutorial/essential/concurrency/
 
+## com.jenkov
 
+http://tutorials.jenkov.com/java-concurrency/index.html
 
-## GUAVA
+http://ifeve.com/java-concurrency-thread-directory/
+
+## bbejeck.guava
+
+https://github.com/icejoywoo/guava-book
 
 https://github.com/tiantiangao/guava-study

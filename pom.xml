@@ -143,6 +143,15 @@
             <version>1.3.4</version>
         </dependency>
 
+        <!--JAVA 8 already support StampedLock-->
+        <!--
+        <dependency>
+            <groupId>io.gatling</groupId>
+            <artifactId>jsr166e</artifactId>
+            <version>1.0</version>
+        </dependency>
+        -->
+
         <dependency>
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-core</artifactId>
